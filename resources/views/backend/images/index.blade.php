@@ -25,7 +25,7 @@
                         @foreach($images as $image)
                             <tr>
                                 <td> {{ $image->name }}</td>
-                                <td><img width="100" src="{{asset('uploads/images/' . $image->image)}}"></td>
+                                <td><img width="100" src="{{asset('storage/app/public/uploads/images/' . $image->image)}}"></td>
                                 <td>
                                     {{$image->album->name}}
                                 </td>

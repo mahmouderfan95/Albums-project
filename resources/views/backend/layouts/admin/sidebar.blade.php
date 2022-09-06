@@ -2,7 +2,7 @@
     <div class="app-sidebar__user clearfix">
         <div class="dropdown user-pro-body">
             <div>
-                <img src="{{ asset('backend/assets/images/faces/male/25.jpg') }}" alt="user-img" class="avatar avatar-lg brround">
+                <img src="{{ asset('public/backend/assets/images/faces/male/25.jpg') }}" alt="user-img" class="avatar avatar-lg brround">
             </div>
                 <div class="user-info">
                     <h2>{{auth('web')->user()->name}}</h2>

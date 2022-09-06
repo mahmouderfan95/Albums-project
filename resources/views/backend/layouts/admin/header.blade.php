@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="d-flex">
             <a class="header-brand" href="{{route('home.page')}}">
-                <img src="{{asset('backend/assets/images/brand/logo.png')}}" class="header-brand-img" alt="Classiffied">
+                <img src="{{asset('public/backend/assets/images/brand/logo.png')}}" class="header-brand-img" alt="Classiffied">
             </a>
             <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-toggle="sidebar" href="#"></a>
             <div class="header-navicon">
@@ -18,7 +18,7 @@
                 </div>
                 <div class="dropdown ">
                     <a href="#" class="nav-link pr-0 leading-none user-img" data-toggle="dropdown">
-                        <img src="{{ asset('backend/assets/images/faces/male/25.jpg') }}" alt="profile-img" class="avatar avatar-md brround">
+                        <img src="{{ asset('public/backend/assets/images/faces/male/25.jpg') }}" alt="profile-img" class="avatar avatar-md brround">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow ">
                         <a class="dropdown-item" href="{{route('user.logout')}}">

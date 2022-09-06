@@ -90,7 +90,7 @@ class AlbumController extends Controller
         $file = $request->file('dzfile');
         $ext = '.'.$file->getClientOriginalExtension();
         $file_name = str_replace($ext, date('d-m-Y-H-i') . $ext, $file->getClientOriginalName());
-        $uploadPath = public_path(). '/uploads/images';
+        $uploadPath = storage_path(). '/app/public/uploads/images';
         $file->move($uploadPath, $file_name);
         return response()->json([
             'name' => $file_name,

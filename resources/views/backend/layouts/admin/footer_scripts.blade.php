@@ -1,34 +1,34 @@
 <!-- Dashboard js -->
-<script src="{{asset('backend/assets/js/vendors/jquery-3.2.1.min.js')}}"></script>
-<script src="{{asset('backend/assets/plugins/bootstrap-4.3.1-dist/js/popper.min.js')}}"></script>
-<script src="{{asset('backend/assets/plugins/bootstrap-4.3.1-dist/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('backend/assets/js/vendors/selectize.min.js')}}"></script>
-<script src="{{asset('backend/assets/js/vendors/circle-progress.min.js')}}"></script>
-<script src="{{asset('backend/assets/plugins/rating/jquery.rating-stars.js')}}"></script>
+<script src="{{asset('public/backend/assets/js/vendors/jquery-3.2.1.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/bootstrap-4.3.1-dist/js/popper.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/bootstrap-4.3.1-dist/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/js/vendors/selectize.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/js/vendors/circle-progress.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/rating/jquery.rating-stars.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
 <!-- Fullside-menu Js-->
-<script src="{{asset('backend/assets/plugins/toggle-sidebar/sidemenu.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/toggle-sidebar/sidemenu.js')}}"></script>
 
 
 <!-- Data tables -->
-<script src="{{asset('backend/assets/plugins/datatable/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('backend/assets/plugins/datatable/dataTables.bootstrap4.min.js')}}"></script>
-<script src="{{asset('backend/assets/js/datatable.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/datatable/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/datatable/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/js/datatable.js')}}"></script>
 
 <!-- Select2 js -->
-<script src="{{asset('backend')}}/assets/plugins/select2/select2.full.min.js"></script>
+<script src="{{asset('public/backend/assets/plugins/select2/select2.full.min.js')}}"></script>
 
 <!-- p-scroll bar Js-->
-<script src="{{asset('backend/assets/plugins/pscrollbar/pscrollbar.js')}}"></script>
-<script src="{{asset('backend/assets/plugins/pscrollbar/pscroll.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/pscrollbar/pscrollbar.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/pscrollbar/pscroll.js')}}"></script>
 
 <!--Counters -->
-<script src="{{asset('backend/assets/plugins/counters/counterup.min.js')}}"></script>
-<script src="{{asset('backend/assets/plugins/counters/waypoints.min.js')}}/"></script>
+<script src="{{asset('public/backend/assets/plugins/counters/counterup.min.js')}}"></script>
+<script src="{{asset('public/backend/assets/plugins/counters/waypoints.min.js')}}/"></script>
 
 
 <!-- Custom Js-->
-<script src="{{asset('backend/assets/js/admin-custom.js')}}"></script>
+<script src="{{asset('public/backend/assets/js/admin-custom.js')}}"></script>
 <script>
     var uploadedDocumentMap = {}
     Dropzone.options.dpzMultipleFiles = {

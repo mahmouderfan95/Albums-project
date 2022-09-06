@@ -3,6 +3,11 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+    #protected env file
+    <files .env>
+        order allow,deny
+        Deny from all
+    </files>
     RewriteEngine On
 
     # Handle Authorization Header

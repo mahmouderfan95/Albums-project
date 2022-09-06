@@ -1,0 +1,16 @@
+/* rtl style  */
+*{
+    direction: rtl;
+    text-align: right;
+}
+body{
+    direction: rtl;
+    text-align: right;
+}
+
+/* custom style */
+.page-wrapper.compact-wrapper .page-header{
+    margin-right:280px !important;
+}
+
+
